@@ -13,11 +13,11 @@ README = (pathlib.Path()/pathlib.Path('README.md')).open().read()
 
 setup(
     name='fulfill-plugin-external',
-    version='0.4.0',
+    version='0.4.1',
     author='Doctorx',
     summary='Fulfillment external plugin',
     long_description=README,
-    packages=find_namespace_packages(include=['fulfill.*']),
+    packages=find_namespace_packages(include=['fulfill.*', 'fulfill.plugins.*']),
     include_package_data=True,
     install_requires=install_requires,
     python_requires='>=3.8, <4',
