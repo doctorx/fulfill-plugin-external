@@ -13,7 +13,7 @@ README = (pathlib.Path()/pathlib.Path('README.md')).open().read()
 
 setup(
     name='fulfill-plugin-external',
-    version='0.4.1',
+    version='0.4.3',
     author='Doctorx',
     summary='Fulfillment external plugin',
     long_description=README,
